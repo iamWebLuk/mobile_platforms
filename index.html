@@ -43,7 +43,17 @@
       <i class="icon-info-sign"></i>
 
 
+        <!-- Web Worker  -->
+        <h2>Web Worker</h2>
+        <button onclick="sendMessageToWebworker()">Post message 'hello'.</button>
+        <button onclick="askWebworkerForRecurringTask()">Post message 'recurring task'.</button>
+        <output class="webworker"></output>
+
+        <!-- Service Worker -->
+        <h2>Service Worker</h2>
         <output class="serviceworker"></output>
+
+        <!-- Scripts -->
         <script src="js/use_webworker.js"></script>
         <script src="js/use_serviceworker.js"></script>
         <script src="js/main.js"></script>
